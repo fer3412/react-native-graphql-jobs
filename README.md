@@ -1,6 +1,6 @@
 # react-native-graphql-jobs
 
-Este es un código de ejemplo de uso de react native con graphql.
+Este es un código de ejemplo uso de react native con graphql.
 
 ## Instalación
 
