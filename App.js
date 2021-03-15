@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
 // import {HttpLink} from 'apollo-link-http';
@@ -8,16 +7,7 @@ import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import Navigation from './src/navigation/Navigation';
 
-// const link = new HttpLink({
-//   uri: 'https://api.graphql.jobs/',
-//   // uri: 'https://graphql.org/swapi-graphql',
-// });
 
-// const cache = new InMemoryCache();
-// const client = new ApolloClient({
-//   link,
-//   cache,
-// });
 
 const client = new ApolloClient({
   uri: 'https://api.graphql.jobs/',
